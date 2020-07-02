@@ -71,8 +71,11 @@ article{
     padding: 10px;
 }
 .feeds-header-image{
-    width: 30px;
+    width: 40px;
     margin: 5px 15px 5px;
+    border: 1px solid black;
+    border-radius: 50%;
+    outline: none;
 }
 
 .feeds-main-image{
@@ -96,12 +99,13 @@ article{
 }
 
 .feeds-text {
-  padding-left: 15px;
+  padding: 15px 15px 0 15px;
   display: flex;
   flex-direction: column;
 }
 
 .coment-container{
+    height: 40px;
     display: flex;
     align-items: center;
     border-top: 1px solid rgb(200,200,200);
@@ -123,8 +127,25 @@ article{
     cursor: pointer;
 } 
 
+.classList_divtag{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+ }
+
+ .classList_spantag1{
+   margin: 15px 15px 10px 0px;
+   font-weight: bold;
+}
+
+.classList_buttontag{
+   all:unset;
+
+   color:skyblue;
+   cursor: pointer;
+}
 .main_right {
-  width: 100%;
+  position: fixed;
   display: flex;
   flex-direction: column;
   margin-top: 55px;
@@ -214,12 +235,13 @@ article{
   overflow: hidden;
 }
 
-.follow {
-  padding-top: 13px;
+.recommend {
+  padding-bottom: 13px;
 }
 
 
 .follow_profile {
+  
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -271,3 +293,6 @@ article{
   font-size: 13px;
   color:#c7c7c7;
  }
+
+
+
